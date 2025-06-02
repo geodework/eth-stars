@@ -1,6 +1,6 @@
 # Events Data Operation Guide
 
-This document describes the step-by-step process for integrating Notion, generating event data, enriching it with external API data, and inserting it into the database for the Ethereum Events project.
+This document describes the step-by-step process for integrating Notion, generating event data, enriching it with external API data, and inserting it into the database for the Eth Stars project.
 
 ---
 

@@ -10,13 +10,13 @@ export default function Header() {
           <div className="rounded-full bg-accent p-1.5 border-2 border-white">
             <Image
               src="/geode-ethereum.png"
-              alt="Ethereum Events"
+              alt="Eth Stars"
               width={32}
               height={32}
             />
           </div>
           <Link href="/" className="text-xl font-bold text-white">
-            Ethereum Events
+            Eth Stars
           </Link>
         </div>
         <div className="flex items-center gap-4">

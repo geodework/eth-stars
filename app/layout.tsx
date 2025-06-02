@@ -9,8 +9,8 @@ import { ThemeProvider } from "@/components/theme-provider"
 const raleway = Raleway({ subsets: ["latin"], weight: ["400", "700"] })
 
 export const metadata: Metadata = {
-  title: "Ethereum Events - Global Crypto Calendar",
-  description: "Discover and plan for crypto events worldwide",
+  title: "Eth Stars - Global Crypto Meetup Communities",
+  description: "Discover and plan for crypto meetup communities worldwide",
 }
 
 export default function RootLayout({

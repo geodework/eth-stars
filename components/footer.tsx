@@ -11,9 +11,7 @@ export default function Footer() {
               <div className="rounded-full bg-accent p-1.5">
                 <Globe className="h-4 w-4 text-white" />
               </div>
-              <h3 className="text-lg font-semibold text-white">
-                Ethereum Events
-              </h3>
+              <h3 className="text-lg font-semibold text-white">Eth Stars</h3>
             </div>
             <p className="mt-2 text-sm text-secondary-300">
               Discover and plan for crypto events worldwide
@@ -76,9 +74,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="mt-8 border-t border-secondary-100 pt-8 text-center text-sm text-secondary-300">
-          <p>
-            © {new Date().getFullYear()} Ethereum Events. All rights reserved.
-          </p>
+          <p>© {new Date().getFullYear()} Eth Stars. All rights reserved.</p>
           <p className="mt-2">
             <Link
               href="https://geodework.com"
