@@ -11,8 +11,8 @@
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
     --primary-hue: 217;
-    --primary-saturation: 100%;
-    --primary-lightness: 50%;
+    --primary-saturation: 26.64%;
+    --primary-lightness: 37.3%;
     --primary: var(--primary-hue), var(--primary-saturation), var(--primary-lightness);
     --primary-foreground: 210 40% 98%;
     --secondary: 222 22% 57%;
@@ -29,7 +29,7 @@
     --secondary-950: 222 47% 5%;
     --muted: 210 40% 96.1%;
     --muted-foreground: 215.4 16.3% 46.9%;
-    --accent: 48 100% 50%;
+    --accent: 144 65% 54%;
     --accent-800: 48 100% 40%;
     --accent-900: 48 100% 30%;
     --accent-foreground: 222.2 47.4% 11.2%;
