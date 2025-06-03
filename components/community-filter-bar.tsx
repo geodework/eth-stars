@@ -85,7 +85,7 @@ export function CommunityFilterBar() {
               htmlFor="deadline-soon"
               className="text-sm text-secondary-700"
             >
-              Only Ongoing/Upcoming
+              Only Verified
             </Label>
           </div>
         </div>
@@ -140,7 +140,7 @@ export function CommunityFilterBar() {
                   htmlFor="temp-range"
                   className="text-right text-secondary-700"
                 >
-                  Categories
+                  High Scores
                 </Label>
                 <select
                   id="temp-range"
@@ -148,7 +148,7 @@ export function CommunityFilterBar() {
                   value={filters.categories[0]}
                   onChange={(e) => setFilters("categories", [e.target.value])}
                 >
-                  {categories.map((category) => (
+                  {["1", "2", "3", "4", "5"].map((category) => (
                     <option key={category} value={category}>
                       {category}
                     </option>

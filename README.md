@@ -1,36 +1,63 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# EthStars.xyz
+
+A visually engaging website that lists ETHx meetup communities as interactive cards and displays them on a map. Users can browse, search, and view details and key metrics about each community.
+
+## Features & Upcoming Development
+
+### MVP (v1)
+
+- Responsive grid of community cards
+- Community detail pages
+- Data storage with Postgres
+- Basic search and filter
+
+### v2
+
+- Map view with interactive community info
+- Event listings per community
+- User accounts & community submissions
+- Notification feature via SNS or email
+- Dashboard for internal members
+- Enhanced credibility of events and communities
+- Visualize grant → event → impact chains
+- Admin panel for managing communities
+
+## Tech Stack
+
+- **Frontend:** React with Next.js
+- **Backend:** Supabase (Postgres)
+- **Image Storage:** S3 or IPFS in future.
+- **Hosting:** Vercel
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+
+- Node.js (v18+ recommended)
+- pnpm (preferred package manager)
+
+### Installation
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+pnpm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Running Locally
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+pnpm dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+The app will be available at `http://localhost:3000`.
 
-## Learn More
+## Contributing
 
-To learn more about Next.js, take a look at the following resources:
+We welcome contributions from the community! Whether you want to fix a bug, add a feature, or improve documentation, your help is appreciated.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Check out the [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+- Look for issues labeled `good first issue` or `help wanted`.
+- Open an issue or pull request if you have suggestions or improvements.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## License
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+[Apache 2.0](LICENSE)
